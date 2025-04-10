@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(20, 52, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: pre-line;
+}
+h2 {
+    font-size: 20px;
+    color: rgb(120, 5, 124);
+} 
+@keyframes color-change {
+    0% {color: rgb(120, 5, 124);}
+    25%{color: rgb(224, 15, 15);}
+    75%{color: rgb(255, 5, 242);}
+    100%{color: blanchedalmond;}
+}
+h1  {
+    color: rgb(255, 255, 255);
+    animation: color-change 5s infinite;
+} 
+
+h3 {
+    font-size: 19px;
+    color: rgb(224, 15, 15);
+} 
+h4 {
+    font-size: 20px;
+    color: blanchedalmond;
+}
